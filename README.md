@@ -29,7 +29,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent 
+   npm i user-agents axios colors meo-forkcy-utils meo-forkcy-proxy meo-forkcy-colors
    ```
 
 2. **Prepare Configuration Files:**
@@ -44,7 +44,6 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 {
   "limit": 100,
   "countdown": 12000,
-  "country_time": "en-US",
   "delayEachAccount": [5, 8],
   "referralCode": "6713068747",
   "doTasks": false
@@ -88,6 +87,6 @@ socks5://user:pass@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `cd gumart-main/gumart; node meomundep`
+> To run the bot, use the following command: `cd gumart; node meomundep`
 
 🎇Enjoy!
