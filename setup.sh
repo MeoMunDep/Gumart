@@ -71,9 +71,8 @@ create_default_configs() {
 {
   "limit": 100,
   "countdown": 12000,
-  "country_time": "en-US",
   "delayEachAccount": [1, 1],
-  "referralCode": "6713068747",
+  "referralCode": "",
   "doTasks": true
 }
 EOL
@@ -106,7 +105,7 @@ print_green "Configuration files have been checked."
 
 print_yellow "Checking dependencies..."
 cd "$MODULES_DIR"
-npm install --no-audit --no-fund --prefer-offline --force user-agents axios colors https-proxy-agent socks-proxy-agent 
+npm install --no-audit --no-fund --prefer-offline --force user-agents axios meo-forkcy-utils meo-forkcy-proxy meo-forkcy-colors
 cd - > /dev/null
 print_green "Dependencies installation completed!"
 
